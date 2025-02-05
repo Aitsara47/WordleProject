@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main-content">
+        <h1 class="title">WORDLE</h1>
+        <div class="guess box" id="1"><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled></div>
+        <div class="guess box" id="2"><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled></div>
+        <div class="guess box" id="3"><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled></div>
+        <div class="guess box" id="4"><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled></div>
+        <div class="guess box" id="5"><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled><input value="" type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()" disabled></div>
+        <hr class="hr">
+        <div class="guess box input" id="6"><input type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()"><input type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()"><input type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()"><input type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()"><input type="text" maxlength="1" pattern="[A-Za-z]" oninput="this.value = this.value.toUpperCase()"> <button id="again" class="hidden" onclick="refreshPage()">Again</button></div>
+        <hr class="hr">
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
